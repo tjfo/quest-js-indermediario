@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio JS Intermediário</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+</head>
+<body>
+    <main>
+        <div class="apresentacao">
+            <h1 class="titulo">FICOU COM DÚVIDA?<br>NOS MANDE UMA MENSAGEM!</h1>
+            <p class="texto">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+        </div>
+
+        <form class="formulario" method="get" action="#">
+            <input class="campo"type="text" name="nome" placeholder="Nome completo *" id="nome"/>
+            <p class="campo-obrigatorio">campo obrigatório</p>
+            <input class="campo"type="text" name="email" placeholder="E-mail *" id="email"/>
+            <p class="campo-obrigatorio">campo obrigatório</p>
+            <input class="campo"type="number" name="telefone" placeholder="Telefone *" id="telefone"/>
+            <p class="campo-obrigatorio">campo obrigatório</p>
+            <textarea class="campo" type="text" name="mensagem" placeholder="Mensagem *" id="mensagem"></textarea>
+            <p class="campo-obrigatorio">campo obrigatório</p>
+
+            <p>*campos obrigatórios</p>
+            <button id="enviar">Enviar</button>
+            
+        </form>
+        
+    </main>
+    <script type="text/javascript" src="./src/js/formulario.js"></script>
+</body>
+</html>
